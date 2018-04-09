@@ -1429,7 +1429,7 @@ p {
 
 .callout {
   padding: 16px;
-  background-color: #fff; }
+  background-color: #FFF490; }
   @media (min-width: 925px) {
     .callout {
       padding: 32px; } }
@@ -2540,8 +2540,10 @@ li.skip-link {
 
 .callout {
   padding: 16px;
-  background-color: #fdf2d5;
+  background-color: #FFF490;
   border: solid #fada8b;
+  border-top: 4px;
+  border-color: #000;
   border-width: 4px 0; }
   @media (min-width: 925px) {
     .callout {
