@@ -2161,7 +2161,7 @@ a {
       display: flex;
       justify-content: space-between; }
       .main-nav__page-menu > li > a:after {
-        content: "";
+        content: "\00A0\e901";
         /* use !important to prevent issues with browser extensions that change fonts */
         font-family: 'NHS-icons' !important;
         speak: none;
