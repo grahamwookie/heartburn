@@ -2539,12 +2539,17 @@ li.skip-link {
     line-height: 24px; }
 
 .callout {
+  position: relative;
   padding: 16px;
   background-color: #FFF490;
-  border: solid #fada8b;
   border-top: 4px;
   border-color: #000;
-  border-width: 4px 0; }
+  border-width: 4px 0 0 0; }
+  .callout--icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   @media (min-width: 925px) {
     .callout {
       padding: 32px; } }
